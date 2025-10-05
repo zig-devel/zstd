@@ -1,0 +1,20 @@
+.{
+    .name = .zstd,
+    .version = "1.5.7-0",
+    .fingerprint = 0x72fd505eeac6f967, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.15.1",
+    .dependencies = .{
+        .zstd = .{
+            .url = "https://github.com/facebook/zstd//archive/ac66b19e6bd6b83238bf008eecc1298105298532.tar.gz",
+            .hash = "N-V-__8AAPZ7fwBg4JoCzM_0o2A8wxH2hsUUeiU1iuZv53L5",
+        },
+    },
+    .paths = .{
+        "LICENSES/",
+        "REUSE.toml",
+        "README.md",
+        "tests.zig",
+        "build.zig",
+        "build.zig.zon",
+    },
+}
